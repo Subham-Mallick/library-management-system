@@ -3,6 +3,7 @@
 * [System requirements](#System-Requirements)
 * [Use case Diagram](#Use-case-diagram)
 * [Class Diagram](#Class-Diagram)
+* [Activity Diagram](#activity-diagram)
 
 
 ## System Requirements
@@ -85,3 +86,22 @@ Here are the main classes of our Library Management System:
         <img src="https://www.educative.io/api/collection/5668639101419520/5692201761767424/page/5636470266134528/image/5150650100875264.png">
 </p>
 
+## Activity Diagram
+
+**Check-out a book:** Any library member or librarian can perform this activity. Here are the set of steps to check-out a book:
+
+<p align="center">
+        <img src="https://www.educative.io/api/collection/5668639101419520/5692201761767424/page/5636470266134528/image/5690449683546112.png">
+</p>
+
+**Return a book:** Any library member or librarian can perform this activity. The system will collect fines from members if they return books after the due date. Here are the steps for returning a book:
+
+<p align="center">
+        <img src="https://www.educative.io/api/collection/5668639101419520/5692201761767424/page/5636470266134528/image/5756901417549824.png">
+</p>
+
+**Renew a book:** While renewing (re-issuing) a book, the system will check for fines and see if any other member has not reserved the same book, in that case the book item cannot be renewed. Here are the different steps for renewing a book:
+
+<p align="center">
+        <img src="https://www.educative.io/api/collection/5668639101419520/5692201761767424/page/5636470266134528/image/5728605367697408.png">
+</p>
